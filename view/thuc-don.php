@@ -23,7 +23,7 @@
                           <div class="tab-content">
                             <div class="col-md-5 col-sm-12">
                               <div class="cat-wrapper">
-                                <div class="item"><img src="assets/images/product/pd-cat-dessert.png" alt="" class="img img-responsive img-full"></div>
+                                <div class="item"><img src="public/source/assets/images/product/pd-cat-dessert.png" alt="" class="img img-responsive img-full"></div>
                               </div>
                             </div>
                             <div class="col-md-7 col-sm-12">
@@ -69,7 +69,7 @@
                           <div class="tab-content">
                             <div class="col-md-5 col-sm-12">
                               <div class="cat-wrapper">
-                                <div class="item"><img src="assets/images/product/pd-cat-lunch.png" alt="" class="img img-responsive img-full"></div>
+                                <div class="item"><img src="public/source/assets/images/product/pd-cat-lunch.png" alt="" class="img img-responsive img-full"></div>
                               </div>
                             </div>
                             <div class="col-md-7 col-sm-12">
@@ -115,7 +115,7 @@
                           <div class="tab-content">
                             <div class="col-md-5 col-sm-12">
                               <div class="cat-wrapper">
-                                <div class="item"><img src="assets/images/product/pd-cat-dinner.png" alt="" class="img img-responsive img-full"></div>
+                                <div class="item"><img src="public/source/assets/images/product/pd-cat-dinner.png" alt="" class="img img-responsive img-full"></div>
                               </div>
                             </div>
                             <div class="col-md-7 col-sm-12">
@@ -161,7 +161,7 @@
                           <div class="tab-content">
                             <div class="col-md-5 col-sm-12">
                               <div class="cat-wrapper">
-                                <div class="item"><img src="assets/images/product/pd-cat-dessert.png" alt="" class="img img-responsive img-full"></div>
+                                <div class="item"><img src="public/source/assets/images/product/pd-cat-dessert.png" alt="" class="img img-responsive img-full"></div>
                               </div>
                             </div>
                             <div class="col-md-7 col-sm-12">
@@ -207,7 +207,7 @@
                           <div class="tab-content">
                             <div class="col-md-5 col-sm-12">
                               <div class="cat-wrapper">
-                                <div class="item"><img src="assets/images/product/pd-cat-lunch.png" alt="" class="img img-responsive img-full"></div>
+                                <div class="item"><img src="public/source/assets/images/product/pd-cat-lunch.png" alt="" class="img img-responsive img-full"></div>
                               </div>
                             </div>
                             <div class="col-md-7 col-sm-12">
@@ -268,7 +268,7 @@
                           <div class="row">
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <a href="ds-thuc-don.html"><h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></a>
@@ -276,7 +276,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01b.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01b.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <a href="ds-thuc-don.html"><h5 class="title">Grandpa's Country Fried</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span></a>
@@ -284,7 +284,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01c.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01c.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <a href="ds-thuc-don.html"><h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span></a>
@@ -292,7 +292,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01d.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01d.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <a href="ds-thuc-don.html"><h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span></a>
@@ -300,7 +300,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01e.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01e.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <a href="ds-thuc-don.html"><h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span></a>
@@ -308,7 +308,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01f.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01f.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
@@ -318,7 +318,7 @@
                           <div class="row">
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01l.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01l.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
@@ -326,7 +326,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01b.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01b.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Grandpa's Country Fried</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
@@ -334,7 +334,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
@@ -342,7 +342,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01e.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01e.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
@@ -350,7 +350,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01f.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01f.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
@@ -358,109 +358,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01d.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="item-slick">
-                          <div class="row">
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01l.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01b.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Grandpa's Country Fried</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01e.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01f.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01d.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
-                              </div>
-                            </div>
-                          </div>
-                          <div class="row">
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01b.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Grandpa's Country Fried</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01c.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01d.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01e.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01f.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01d.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
@@ -472,7 +370,7 @@
                           <div class="row">
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01l.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
@@ -480,7 +378,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01b.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01b.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Grandpa's Country Fried</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
@@ -488,7 +386,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01c.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
@@ -496,7 +394,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01d.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01e.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
@@ -504,7 +402,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01e.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01f.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
@@ -512,7 +410,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01f.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01d.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
@@ -522,7 +420,7 @@
                           <div class="row">
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01l.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
@@ -530,7 +428,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01b.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01b.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Grandpa's Country Fried</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
@@ -538,7 +436,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01c.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
@@ -546,7 +444,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01e.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01d.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
@@ -554,7 +452,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01f.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01e.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
@@ -562,7 +460,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01d.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01f.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
@@ -574,23 +472,7 @@
                           <div class="row">
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01c.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01d.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
@@ -598,7 +480,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01b.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01b.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Grandpa's Country Fried</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
@@ -606,7 +488,23 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01e.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01c.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01d.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01e.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
@@ -614,7 +512,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01f.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01f.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
@@ -624,23 +522,7 @@
                           <div class="row">
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01e.jpg" alt="">
-                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
-                                </div>
-                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
-                              </div>
-                            </div>
-                            <div class="col-md-2 col-sm-4 col-xs-12">
-                              <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01l.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01l.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
@@ -648,7 +530,7 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01b.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01b.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Grandpa's Country Fried</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
@@ -656,7 +538,23 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01f.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01e.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01f.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
@@ -664,7 +562,109 @@
                             </div>
                             <div class="col-md-2 col-sm-4 col-xs-12">
                               <div class="item product-01">
-                                <div class="block-img"><img src="assets/images/product/product-01d.jpg" alt="">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01d.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="item-slick">
+                          <div class="row">
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01c.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01d.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01b.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Grandpa's Country Fried</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01e.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01f.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01e.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>17.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01l.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01b.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Grandpa's Country Fried</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>30.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01f.jpg" alt="">
+                                  <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                                </div>
+                                <h5 class="title">Frish Cheese Chip</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>25.0</span>
+                              </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-12">
+                              <div class="item product-01">
+                                <div class="block-img"><img src="public/source/assets/images/product/product-01d.jpg" alt="">
                                   <div class="group-btn"><a href="#" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="#" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                                 </div>
                                 <h5 class="title">Uncle Herschel's Favorite</h5><span class="price woocommerce-Price-amount amount"><span class="price-symbol">$</span>27.0</span>
@@ -678,7 +678,7 @@
                 </div>
               </div>
             </section>
-            <section class="menu-banner-section banner-section padding-top-100 padding-bottom-100"><img src="assets/images/background/lemon.png" alt="" class="img-left img-bg img-deco img-responsive"><img src="assets/images/background/vegetable_03.png" alt="" class="img-right img-bg img-deco img-responsive">
+            <section class="menu-banner-section banner-section padding-top-100 padding-bottom-100"><img src="public/source/assets/images/background/lemon.png" alt="" class="img-left img-bg img-deco img-responsive"><img src="public/source/assets/images/background/vegetable_03.png" alt="" class="img-right img-bg img-deco img-responsive">
               <div class="container">
                 <div class="row">
                   <div class="col-md-8 col-md-offset-2">

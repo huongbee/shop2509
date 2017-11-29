@@ -1,0 +1,13 @@
+<?php
+include_once('Controller.php');
+class MenuController extends Controller{
+
+    public function getMenu(){
+        return $this->loadView("thuc-don.php");
+    }
+
+    
+}
+
+
+?>
