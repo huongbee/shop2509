@@ -108,7 +108,7 @@
           </div>
         </header>
         <?php
-            include_once("$view")
+            include_once("$view.php")
         ?>
         <footer>
           
