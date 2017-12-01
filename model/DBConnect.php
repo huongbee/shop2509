@@ -35,7 +35,7 @@ class DBConnect{
 		return $this->statement->execute();
 
 	}
-	//TH2: SELECT 1
+	//TH2: SELECT 1 dòng
 	public function loadOneRow($query,$param=array()){
 		$check = $this->executeQuery($query,$param);
 		if($check){
@@ -46,6 +46,7 @@ class DBConnect{
 		}
 	}
 
+	//TH3: SELECT nhiều dòng
 	public function loadMoreRows($query,$param=array()){
 		$check = $this->executeQuery($query,$param);
 		if($check){
