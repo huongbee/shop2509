@@ -16,6 +16,8 @@ class HomeModel extends DBConnect{
 	/*limit 0,10 p=1
 			10,10 p=2
 			20,10 p=3
+
+			(p-1).10
 	*/
 
 	public function getAllFoodsPagination($vitri,$soluong){
