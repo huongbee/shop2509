@@ -9,7 +9,7 @@ class HomeController extends Controller{
 
     	$todayFoods = $model->getTodayFoods();
 
-    	$foods = "1234567";
+    	$foods = $model->getAllFoods();
     	/*echo "<pre>";
     	print_r($todayFoods);
     	echo "</pre>";
