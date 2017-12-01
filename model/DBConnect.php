@@ -56,22 +56,6 @@ class DBConnect{
 		}
 	}
 
-
-
-
-
 }
 
-
-$db = new DBConnect; 
-//$sql = "INSERT INTO bill_detail(id_bill,id_food,quantity, price) VALUES(10,52,5000,89)";
-//$p = array(10,52,5,89);
-//$sql = "UPDATE bill_detail SET quantity=8 WHERE id=24";
-//$p = array(12,24);
-//$r = $db->executeQuery($sql);
-// $sql = "SELECT * FROM food_type WHERE id=5";
-// $r = $db->loadOneRow($sql);
-$sql = "SELECT * FROM food_type WHERE id>=5";
-$r = $db->loadMoreRows($sql);
-print_r($r);
 ?>
