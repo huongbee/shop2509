@@ -1,6 +1,7 @@
 <?php
 $todayFoods = $data['todayFoods'];
 $foods = $data['foods'];
+$pagination = $data['pagination'];
 //print_r($foods);
 
 
@@ -124,13 +125,8 @@ $foods = $data['foods'];
             ?>
           </div>
         </div>
-        <ul class="pagination pagination-lg">
-          <li><a href="#">1</a></li>
-          <li><a href="#">2</a></li>
-          <li><a href="#">3</a></li>
-          <li><a href="#">4</a></li>
-          <li><a href="#">5</a></li>
-        </ul>
+        <!-- Hiển thị thanh phân trang -->
+        <?=$pagination?>
 
       </div>
       

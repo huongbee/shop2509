@@ -19,11 +19,11 @@ class HomeController extends Controller{
     		$trangHientai =  1;
 
     	$soSp1page = 9;
-    	$soPageHienthi = 6;
+    	$soPageHienthi = 2;
 
     	$pager = new Pager($tongSp,$trangHientai,$soSp1page,$soPageHienthi);
 
-    	$pagination = $pager->showPagination();
+    	$pagination = $pager->showPagination(); //là thanh phân trang
 
     	$vitri = ($trangHientai - 1)*$soSp1page;
     	$foods = $model->getAllFoodsPagination($vitri,$soSp1page);
