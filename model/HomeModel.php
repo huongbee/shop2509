@@ -4,7 +4,12 @@ include_once('DBConnect.php');
 class HomeModel extends DBConnect{
 
 	public function getTodayFoods(){
-		$sql = "SELECT * FROM foods WHERE today=1";
+		//$sql = "SELECT * FROM foods WHERE today=1";
+		$sql = "SELECT f.*, p.url 
+				FROM foods f 
+				INNER JOIN page_url p 
+					ON f.id_url = p.id
+				WHERE today=1";
 		return $this->loadMoreRows($sql);
 	}
 
@@ -21,7 +26,11 @@ class HomeModel extends DBConnect{
 	*/
 
 	public function getAllFoodsPagination($vitri,$soluong){
-		$sql = "SELECT * FROM foods LIMIT $vitri,$soluong";
+		$sql = "SELECT f.*, p.url 
+				FROM foods f 
+				INNER JOIN page_url p 
+					ON f.id_url = p.id 
+				LIMIT $vitri,$soluong";
 		return $this->loadMoreRows($sql);
 	}
 }

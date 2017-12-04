@@ -56,7 +56,7 @@ $pagination = $data['pagination'];
                     <div class="item product-01">
                       <div class="item-left"><img src="public/source/assets/images/hinh_mon_an/<?=$today->image?>" alt="" class="img img-responsive">
                         <div class="content-wrapper">
-                          <a href="chi-tiet-mon-an.html" class="title">
+                          <a href="detail-food.php?url=<?=$today->url?>" class="title">
                             <?=$today->name?>
                         </a>
                           <div class="dot">...................</div>
@@ -107,11 +107,13 @@ $pagination = $data['pagination'];
                         <span class="price-symbol">vnđ</span>
                       </span>
                     </div>
-                    <div class="group-btn"><a href="chi-tiet-mon-an.html" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                    <div class="group-btn">
+                      <a href="detail-food.php?url=<?=$food->url?>" class="swin-btn btn-link">
+                        <i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
                   </div>
                   <div class="block-content">
                     <h5 class="title">
-                      <a href="chi-tiet-mon-an.html">
+                      <a href="detail-food.php?url=<?=$food->url?>">
                       <?=$food->name?></a>
                     </h5>
                     <div class="product-info">
@@ -135,3 +137,14 @@ $pagination = $data['pagination'];
   
 </div>
 </div>
+
+<script>
+$(document).ready(function(){
+  var page = "<?=isset($_GET['page'])? $_GET['page'] : -1?>";
+
+  if(page!=-1){
+    console.log(23)
+    $('html, body').animate({scrollTop :2000})
+  }
+})
+</script>

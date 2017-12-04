@@ -8,7 +8,12 @@ class HomeController extends Controller{
     public function getHomePage(){
     	$model = new HomeModel;
 
-    	$todayFoods = $model->getTodayFoods();
+		$todayFoods = $model->getTodayFoods();
+		
+		// echo "<pre>";
+		// print_r($todayFoods);
+		// echo "</pre>";
+		// die;
 
     	$foods = $model->getAllFoods();
     	$tongSp = count($foods);
