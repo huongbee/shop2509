@@ -1,4 +1,22 @@
 <?php
+/**
+ * items:[SP1: 2.10 = 20
+ *          qty:2
+ *          price: 20,
+ *          item: obj:id,name,price,....
+ *       ],
+ *      [SP2: 3.30 = 90
+ *          qty:3
+ *          price: 90,
+ *          item: obj:id,name,price,....
+ *       ]
+ * totalQty = 5
+ * totalPrice = 110
+ * 
+ * 
+ * 
+ */
+
 
 class Cart
 {

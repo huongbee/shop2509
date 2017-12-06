@@ -40,11 +40,20 @@ $relatedFood = $data['relatedFood'];
                 <?=$food->detail?>
               </div>
               <div class="product-quanlity">
-                <form action="#">
+              <input type="hidden"  value="<?=$food->id?>" class="idFood" >
+              <form action="#">
                   <div class="input-group">
-                    <input type="text" name="quanlity" placeholder="" value="1" class="form-control"><a href="javascript:void(0)" class="quanlity-plus"><i class="fa fa-plus"></i></a><a href="javascript:void(0)" class="quanlity-minus"><i class="fa fa-minus"></i></a>
+                    <input type="text" name="quanlity" placeholder="" value="1" class="form-control txtQty" >
+                    <a href="javascript:void(0)" class="quanlity-plus">
+                      <i class="fa fa-plus"></i>
+                    </a>
+                    <a href="javascript:void(0)" class="quanlity-minus">
+                      <i class="fa fa-minus"></i>
+                    </a>
                   </div>
-                  <div class="add-to-cart"><a href="javascript:void(0)" class="swin-btn"> <span>Add To Cart</span></a></div>
+                  <div class="add-to-cart">
+                    <a href="javascript:void(0)" class="swin-btn"> 
+                    <span>Add To Cart</span></a></div>
                 </form>
               </div>
               
@@ -79,6 +88,27 @@ $relatedFood = $data['relatedFood'];
           </div>
         </div>
       </section>
+
     </div>
   </div>
 </div>
+<script>
+  $(document).ready(function(){
+    $('.txtQty').on('keyup',function(){
+      var q = $(this).val();
+      if(isNaN(q)){
+        alert('Vui lòng nhập số')
+      }
+    })
+    $('.add-to-cart').click(function(){
+      //console.log(1234)
+      var qty = parseInt($('.txtQty').val());
+      var idFood = $('.idFood').val();
+      
+      console.log(qty)
+      console.log(idFood)
+
+    })
+
+  })
+</script>
