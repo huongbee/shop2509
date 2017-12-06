@@ -15,7 +15,7 @@ class HomeController extends Controller{
 		// echo "</pre>";
 		// die;
 
-    	$foods = $model->getAllFoods();
+    	$foods = $model->getAllFoodsPagination();
     	$tongSp = count($foods);
     	if(isset($_GET['page']) && $_GET['page'] !=0 && is_numeric($_GET['page'])){
     		$trangHientai = abs($_GET['page']);
@@ -24,7 +24,7 @@ class HomeController extends Controller{
     		$trangHientai =  1;
 
     	$soSp1page = 9;
-    	$soPageHienthi = 2;
+    	$soPageHienthi = 5;
 
     	$pager = new Pager($tongSp,$trangHientai,$soSp1page,$soPageHienthi);
 

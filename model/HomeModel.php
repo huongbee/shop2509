@@ -13,10 +13,10 @@ class HomeModel extends DBConnect{
 		return $this->loadMoreRows($sql);
 	}
 
-	public function getAllFoods(){
-		$sql = "SELECT * FROM foods";
-		return $this->loadMoreRows($sql);
-	}
+	// public function getAllFoods(){
+	// 	$sql = "SELECT * FROM foods";
+	// 	return $this->loadMoreRows($sql);
+	// }
 
 	/*limit 0,10 p=1
 			10,10 p=2
@@ -25,12 +25,14 @@ class HomeModel extends DBConnect{
 			(p-1).10
 	*/
 
-	public function getAllFoodsPagination($vitri,$soluong){
+	public function getAllFoodsPagination($vitri=-1,$soluong=0){
 		$sql = "SELECT f.*, p.url 
 				FROM foods f 
 				INNER JOIN page_url p 
-					ON f.id_url = p.id 
-				LIMIT $vitri,$soluong";
+					ON f.id_url = p.id ";
+		if($vitri!=-1 && $soluong!=0){
+			$sql.=" LIMIT $vitri,$soluong";
+		}
 		return $this->loadMoreRows($sql);
 	}
 }
