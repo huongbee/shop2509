@@ -13,10 +13,10 @@ class DetailFoodController extends Controller{
         
         //$id_type = $food->id_type;
         $relatedFood = $model->getRelatedFood($food->id_type,$food->id);
-        echo "<pre>";
-		print_r($relatedFood);
-		echo "</pre>";
-        die;
+        // echo "<pre>";
+		// print_r($relatedFood);
+		// echo "</pre>";
+        // die;
         $data = array(
             'food'=>$food,
             'relatedFood'=>$relatedFood
