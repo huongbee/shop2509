@@ -78,7 +78,11 @@ $relatedFood = $data['relatedFood'];
                     <span class="price-symbol">vnđ</span>
                   </span>
                 </div>
-                <div class="group-btn"><a href="javascript:void(0)" class="swin-btn btn-link"><i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                <div class="group-btn">
+                <a href="javascript:void(0)" class="swin-btn btn-link">
+                <i class="icons fa fa-link"></i></a>
+                <a href="javascript:void(0)" class="swin-btn btn-add-to-card" dataId="<?=$food->id?>" >
+                <i class="fa fa-shopping-basket"></i></a></div>
               </div>
               <div class="block-content">
                 <h5 class="title"><a href="javascript:void(0)"><?=$food->name?></a></h5>
@@ -107,24 +111,7 @@ $relatedFood = $data['relatedFood'];
       
         // console.log(qty)
         // console.log(idFood)
-        $.ajax({
-            url:"cart.php",
-            type:"POST",
-            data:{
-                "soluong":qty,
-                "idSanpham":idFood
-            },
-            success:function(data){
-                //nhan data tu controller tra ve
-                console.log(data)
-                $('#namefood').text(data)
-                $('#myModal').modal('show')
-            },
-            error:function(){
-                console.log("Error!!!!!")
-            }
-
-        })
+        ajaxAddCart(qty,idFood)
 
     })
 

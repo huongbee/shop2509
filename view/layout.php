@@ -41,6 +41,28 @@
     <script src="public/source/assets/vendors/pageloading/js/snap.svg-min.js"></script>
     <script src="public/source/assets/vendors/pageloading/sidebartransition/js/modernizr.custom.js"></script>
   </head>
+  <script>
+  function ajaxAddCart(qty,idFood){
+      $.ajax({
+            url:"cart.php",
+            type:"POST",
+            data:{
+                "soluong":qty,
+                "idSanpham":idFood
+            },
+            success:function(data){
+                //nhan data tu controller tra ve
+                console.log(data)
+                $('#namefood').text(data)
+                $('#myModal').modal('show')
+            },
+            error:function(){
+                console.log("Error!!!!!")
+            }
+
+        })
+    }
+  </script>
   <body>
     <div id="pagewrap" class="pagewrap">
       <div id="html-content" class="wrapper-content">
@@ -374,6 +396,31 @@
     <script src="public/source/assets/js/elements.js"></script>
     <script src="public/source/assets/js/widget.js"></script>
    
+
+    <script>
+  $(document).ready(function(){
+    $('.txtQty').on('keyup',function(){
+      var q = $(this).val();
+      if(isNaN(q)){
+        alert('Vui lòng nhập số')
+      }
+    })
+    
+    $('.btn-add-to-card').click(function(){
+      //console.log(1234)
+      var soluong = 1;
+      var idFood = $(this).attr('dataId');
+      
+        // console.log(qty)
+         console.log(idFood)
+
+         ajaxAddCart(soluong,idFood)
+
+    })
+
+  })
+</script>
+
   </body>
 
 <!-- Mirrored from swin-themes.com/html/fooday/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 09 Sep 2017 09:12:42 GMT -->

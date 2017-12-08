@@ -109,7 +109,9 @@ $pagination = $data['pagination'];
                     </div>
                     <div class="group-btn">
                       <a href="detail-food.php?url=<?=$food->url?>" class="swin-btn btn-link">
-                        <i class="icons fa fa-link"></i></a><a href="javascript:void(0)" class="swin-btn btn-add-to-card"><i class="fa fa-shopping-basket"></i></a></div>
+                        <i class="icons fa fa-link"></i></a>
+                        <a href="javascript:void(0)" class="swin-btn btn-add-to-card" dataId="<?=$food->id?>" >
+                        <i class="fa fa-shopping-basket"></i></a></div>
                   </div>
                   <div class="block-content">
                     <h5 class="title">
