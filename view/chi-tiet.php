@@ -105,8 +105,8 @@ $relatedFood = $data['relatedFood'];
       var qty = parseInt($('.txtQty').val());
       var idFood = $('.idFood').val();
       
-        console.log(qty)
-        console.log(idFood)
+        // console.log(qty)
+        // console.log(idFood)
         $.ajax({
             url:"cart.php",
             type:"POST",
