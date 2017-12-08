@@ -114,6 +114,15 @@ $relatedFood = $data['relatedFood'];
                 "soluong":qty,
                 "idSanpham":idFood
             },
+            success:function(data){
+                //nhan data tu controller tra ve
+                console.log(data)
+                $('#namefood').text(data)
+                $('#myModal').modal('show')
+            },
+            error:function(){
+                console.log("Error!!!!!")
+            }
 
         })
 

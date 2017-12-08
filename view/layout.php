@@ -118,7 +118,7 @@
             <!-- Modal content-->
             <div class="modal-content">
               <div class="modal-body">
-                <p>Đã thêm <span>Sản phẩm a</span> vào giỏ hàng</p>
+                <p>Đã thêm <b><span id="namefood">Sản phẩm a</span></b> vào giỏ hàng</p>
               </div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

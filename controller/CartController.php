@@ -24,6 +24,7 @@ class CartController{
         
         //print_r($_SESSION['cart']);
         //thong bao them thanh cong cho nguoi dung
+        echo $food->name;
 
     }
 }
