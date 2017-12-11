@@ -157,8 +157,10 @@
                 action:"update"
               },
               type:"POST",
+              dataType:"JSON",
               success:function(data){
-                console.log(data)
+                console.log(data.giaSp)
+                console.log(data.tongDongia)
               },
               error:function(){
                   console.log('errrr')
