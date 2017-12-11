@@ -53,7 +53,7 @@
             success:function(data){
                 //nhan data tu controller tra ve
                 console.log(data)
-                $('#namefood').text(data)
+                 
                 $('#myModal').modal('show')
             },
             error:function(){

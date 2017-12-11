@@ -36,7 +36,7 @@
                               </td>
                               <td><?=number_format($sanpham['item']->price)?></td>
                               <td>
-                              <select name="product-qty" id="product-qty" class="form-control soluongSP" width="50">
+                              <select name="product-qty" id="product-qty" class="form-control soluongSP" dataID="<?=$idSP?>" width="50">
                                 <?php for($i=1; $i<8; $i++):?>
                                   <option value="<?=$i?>" <?= $i==$sanpham['qty'] ? "selected" : ''?> ><?=$i?></option>
                                 <?php endfor?>
@@ -51,10 +51,8 @@
                             <td colspan="2"><h3><?=number_format($data->totalPrice)?> vnđ</h3></td>
                           </tr>
                           </tbody>
-                      </table>     
-                     
+                      </table>    
                     </div>
-                    
                     <div class="swin-sc swin-sc-contact-form light mtl style-full">
                       <div class="swin-sc swin-sc-title style-2">
                         <h3 class="title"><span>Đặt hàng</span></h3>
@@ -149,7 +147,23 @@
       $(document).ready(function(){
         $('.soluongSP').change(function(){
             var soluong = $(this).val();
-            console.log(soluong);
+            var idSP = $(this).attr('dataID')
+            console.log(soluong,idSP);
+            $.ajax({
+              url:"cart.php",
+              data:{
+                qty:soluong,
+                id:idSP,
+                action:"update"
+              },
+              type:"POST",
+              success:function(data){
+                console.log(data)
+              },
+              error:function(){
+                  console.log('errrr')
+              }
+            })
         })
       })
       </script>
