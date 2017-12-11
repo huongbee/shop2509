@@ -90,7 +90,7 @@
                     </ul>
                   </div>
                   <div class="item">
-                    <div class="wg-social"><a href="checkout.html"><i class="fa fa-shopping-cart fa-2x"></i><span>Shopping Cart</span></a></div>
+                    <div class="wg-social"><a href="checkout.php"><i class="fa fa-shopping-cart fa-2x"></i><span>Shopping Cart</span></a></div>
                   </div>
                 </div>
               </div>
@@ -411,7 +411,7 @@
       var soluong = 1;
       var idFood = $(this).attr('dataId');
       
-        // console.log(qty)
+         console.log(soluong)
          console.log(idFood)
 
          ajaxAddCart(soluong,idFood)
