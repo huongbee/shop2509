@@ -46,8 +46,8 @@ class CartController{
          //luu gio hang vao session
          $_SESSION['cart'] = $cart;
          
-        $giaSp = $cart->items[$id]['price'];
-        $tongDongia = $cart->totalPrice;
+        $giaSp = number_format($cart->items[$id]['price'])." vnd";
+        $tongDongia = number_format($cart->totalPrice)." vnd";
         $arr = ['giaSp'=>$giaSp,'tongDongia'=>$tongDongia];
         echo json_encode($arr);
  
