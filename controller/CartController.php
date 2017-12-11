@@ -27,6 +27,31 @@ class CartController{
         echo $food->name;
 
     }
+
+    public function updateCart(){
+         //nhan tu ajax view chi tiet
+         $qty = $_POST['qty'];
+         $id = $_POST['id'];
+ 
+         //lay thong tin sp chuan bi them vao gio hang
+         $model  = new CartModel;
+         $food = $model->findFood($id);
+ 
+         //them vao gio hang
+         //lay thong tin gio hang truoc do
+         $oldCart = isset($_SESSION['cart']) ? $_SESSION['cart'] : NULL;
+         $cart = new Cart($oldCart);
+         $cart->update($food, $qty);
+ 
+         //luu gio hang vao session
+         $_SESSION['cart'] = $cart;
+         
+        $giaSp = $cart->items[$id]['price'];
+        $tongDongia = $cart->totalPrice;
+        $arr = ['giaSp'=>$giaSp,'tongDongia'=>$tongDongia];
+        echo json_encode($arr);
+ 
+    }
 }
 
 ?>
