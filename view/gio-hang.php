@@ -36,7 +36,7 @@
                               </td>
                               <td><?=number_format($sanpham['item']->price)?></td>
                               <td>
-                              <select name="product-qty" id="product-qty" class="form-control" width="50">
+                              <select name="product-qty" id="product-qty" class="form-control soluongSP" width="50">
                                 <?php for($i=1; $i<8; $i++):?>
                                   <option value="<?=$i?>" <?= $i==$sanpham['qty'] ? "selected" : ''?> ><?=$i?></option>
                                 <?php endfor?>
@@ -46,6 +46,10 @@
                               <td><a href="#" class="remove" title="Remove this item"><i class="fa fa-trash-o fa-2x"></i></a></td>
                             </tr>
                           <?php endforeach?>
+                          <tr>
+                            <td colspan="3"><h3>Tổng tiền:</h3></td>
+                            <td colspan="2"><h3><?=number_format($data->totalPrice)?> vnđ</h3></td>
+                          </tr>
                           </tbody>
                       </table>     
                      
@@ -140,3 +144,12 @@
             </section>
           </div>
         </div>
+
+      <script>
+      $(document).ready(function(){
+        $('.soluongSP').change(function(){
+            var soluong = $(this).val();
+            console.log(soluong);
+        })
+      })
+      </script>
