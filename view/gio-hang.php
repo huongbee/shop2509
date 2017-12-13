@@ -20,94 +20,105 @@ td[class^="gia-"]{
     <section class="section-reservation-form padding-top-100 padding-bottom-100">
       <div class="container">
         <div class="section-content">
-          <div class="swin-sc swin-sc-title style-2">
-            <h3 class="title"><span>Chi tiết giỏ hàng</span></h3>
-          </div>
-          <div class="reservation-form">
-            <div class="swin-sc swin-sc-contact-form light mtl">
-              <table class="table table-striped" style="text-align: center;">
-                  <thead>
-                    <tr>
-                      <th width="30%" style="text-align: center;">Product</th>
-                      <th width="20%" style="text-align: center;">Price</th>
-                      <th width="20%" style="text-align: center;">Qty.</th>
-                      <th width="20%" style="text-align: center;">Total</th>
-                      <th width="10%" style="text-align: center;">Remove</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                  <?php foreach($data->items as $idSP => $sanpham):?>
-                    <tr class="sanpham-<?=$idSP?>">
-                      <td>
-                        <img src="public/source/assets/images/hinh_mon_an/<?=$sanpham['item']->image?>" width="150px">
-                        <p><br><b><?=$sanpham['item']->name?></b></p>
-                      </td>
-                      <td><?=number_format($sanpham['item']->price)?></td>
-                      <td>
-                      <select name="product-qty" id="product-qty" class="form-control soluongSP" dataID="<?=$idSP?>" width="50">
-                        <?php for($i=1; $i<8; $i++):?>
-                          <option value="<?=$i?>" <?= $i==$sanpham['qty'] ? "selected" : ''?> ><?=$i?></option>
-                        <?php endfor?>
-                      </select>
-                      </td>
-                      <td class="gia-<?=$idSP?>"><?=number_format($sanpham['price'])?> vnd</td>
-                      <td>
-                        <a dataId="<?=$idSP?>" class="remove" title="Remove this item">
-                        <i class="fa fa-trash-o fa-2x"></i></a>
-                      </td>
-                    </tr>
-                  <?php endforeach?>
-                  <tr>
-                    <td colspan="3"><h3>Tổng tiền:</h3></td>
-                    <td colspan="2"><h3 class="tongtien"><?=number_format($data->totalPrice)?> vnđ</h3></td>
-                  </tr>
-                  </tbody>
-              </table>    
-            </div>
-            <div class="swin-sc swin-sc-contact-form light mtl style-full">
-              <div class="swin-sc swin-sc-title style-2">
-                <h3 class="title"><span>Đặt hàng</span></h3>
-              </div>
-              <form>
-                <div class="form-group">
-                  <div class="input-group">
-                    <div class="input-group-addon"><i class="fa fa-user"></i></div>
-                    <input type="text" placeholder="Fullname" class="form-control">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="input-group">
-                    <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-                    <input type="text" placeholder="Email" class="form-control">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="input-group">
-                    <div class="input-group-addon">
-                      <div class="fa fa-map-marker"></div>
-                    </div>
-                    <input type="text" placeholder="Address" class="form-control">
-                  </div>
-                </div>
-                <div class="form-group">
-                  <div class="input-group">
-                    <div class="input-group-addon">
-                      <div class="fa fa-phone"></div>
-                    </div>
-                    <input type="text" placeholder="Phone" class="form-control">
-                  </div>
-                </div>
+			<?php
+			if($data->totalPrice==0){
+				echo '<div class="swin-sc swin-sc-title style-2">
+				<h3 class="title"><span>Giỏ hàng rỗng</span></h3>
+			  </div>';
+			}
+			else{
 
-                <div class="form-group">
-                  <textarea placeholder="Message" class="form-control"></textarea>
-                </div>
-                  <div class="form-group">
-                  <div class="swin-btn-wrap center"><a href="#" class="swin-btn center form-submit"> <span>Checkout</span></a></div>
-                </div>
-              </form>
-            </div>
-            </div>
-        </div>
+				?>
+			<div class="swin-sc swin-sc-title style-2">
+				<h3 class="title"><span>Chi tiết giỏ hàng</span></h3>
+			</div>
+			<div class="reservation-form">
+				<div class="swin-sc swin-sc-contact-form light mtl">
+				<table class="table table-striped" style="text-align: center;">
+					<thead>
+						<tr>
+						<th width="30%" style="text-align: center;">Product</th>
+						<th width="20%" style="text-align: center;">Price</th>
+						<th width="20%" style="text-align: center;">Qty.</th>
+						<th width="20%" style="text-align: center;">Total</th>
+						<th width="10%" style="text-align: center;">Remove</th>
+						</tr>
+					</thead>
+					<tbody>
+					<?php foreach($data->items as $idSP => $sanpham):?>
+						<tr class="sanpham-<?=$idSP?>">
+						<td>
+							<img src="public/source/assets/images/hinh_mon_an/<?=$sanpham['item']->image?>" width="150px">
+							<p><br><b><?=$sanpham['item']->name?></b></p>
+						</td>
+						<td><?=number_format($sanpham['item']->price)?></td>
+						<td>
+						<select name="product-qty" id="product-qty" class="form-control soluongSP" dataID="<?=$idSP?>" width="50">
+							<?php for($i=1; $i<8; $i++):?>
+							<option value="<?=$i?>" <?= $i==$sanpham['qty'] ? "selected" : ''?> ><?=$i?></option>
+							<?php endfor?>
+						</select>
+						</td>
+						<td class="gia-<?=$idSP?>"><?=number_format($sanpham['price'])?> vnd</td>
+						<td>
+							<a dataId="<?=$idSP?>" class="remove" title="Remove this item">
+							<i class="fa fa-trash-o fa-2x"></i></a>
+						</td>
+						</tr>
+					<?php endforeach?>
+					<tr>
+						<td colspan="3"><h3>Tổng tiền:</h3></td>
+						<td colspan="2"><h3 class="tongtien"><?=number_format($data->totalPrice)?> vnđ</h3></td>
+					</tr>
+					</tbody>
+				</table>    
+				</div>
+				<div class="swin-sc swin-sc-contact-form light mtl style-full">
+				<div class="swin-sc swin-sc-title style-2">
+					<h3 class="title"><span>Đặt hàng</span></h3>
+				</div>
+				<form>
+					<div class="form-group">
+					<div class="input-group">
+						<div class="input-group-addon"><i class="fa fa-user"></i></div>
+						<input type="text" placeholder="Fullname" class="form-control">
+					</div>
+					</div>
+					<div class="form-group">
+					<div class="input-group">
+						<div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+						<input type="text" placeholder="Email" class="form-control">
+					</div>
+					</div>
+					<div class="form-group">
+					<div class="input-group">
+						<div class="input-group-addon">
+						<div class="fa fa-map-marker"></div>
+						</div>
+						<input type="text" placeholder="Address" class="form-control">
+					</div>
+					</div>
+					<div class="form-group">
+					<div class="input-group">
+						<div class="input-group-addon">
+						<div class="fa fa-phone"></div>
+						</div>
+						<input type="text" placeholder="Phone" class="form-control">
+					</div>
+					</div>
+
+					<div class="form-group">
+					<textarea placeholder="Message" class="form-control"></textarea>
+					</div>
+					<div class="form-group">
+					<div class="swin-btn-wrap center"><a href="#" class="swin-btn center form-submit"> <span>Checkout</span></a></div>
+					</div>
+				</form>
+				</div>
+				</div>
+			<?php }?>
+		
+		</div>
       </div>
     </section>
     <section data-bottom-top="background-position: 50% 100px;" data-center="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" class="section-reservation-service padding-top-100 padding-bottom-100">
