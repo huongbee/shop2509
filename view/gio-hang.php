@@ -51,7 +51,10 @@ td[class^="gia-"]{
                       </select>
                       </td>
                       <td class="gia-<?=$idSP?>"><?=number_format($sanpham['price'])?> vnd</td>
-                      <td><a href="#" class="remove" title="Remove this item"><i class="fa fa-trash-o fa-2x"></i></a></td>
+                      <td>
+                        <a dataId="<?=$idSP?>" class="remove" title="Remove this item">
+                        <i class="fa fa-trash-o fa-2x"></i></a>
+                      </td>
                     </tr>
                   <?php endforeach?>
                   <tr>
@@ -150,6 +153,22 @@ td[class^="gia-"]{
     </section>
   </div>
 </div>
+<div id="deleteCartModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-body">
+        <p>Bạn có chắc chắn muốn xoá hay không?</p>
+      </div>
+      <div class="modal-footer">
+	  	<button type="button" class="btn btn-success btnAccept">OK</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Cancer</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 <script>
 $(document).ready(function(){
@@ -174,6 +193,37 @@ $('.soluongSP').change(function(){
           console.log('errrr')
       }
     })
+})
+
+$('.remove').click(function(){
+	
+	$('#deleteCartModal').modal('show')
+	var id = $(this).attr('dataId');
+
+	$('.btnAccept').click(function(){
+		
+		if(id!=''){
+			console.log(id)
+			$.ajax({
+			 	url:"cart.php",
+			 	data:{
+				 	id:id,
+				 	action: "delete"
+				},
+			 	type:"POST",
+				success:function(){
+					console.log('success')
+				},
+				error:function(){
+					console.log('err')
+				}
+			})
+
+		}
+		
+		id = ''
+	})
+  	
 })
 })
 </script>

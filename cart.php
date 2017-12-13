@@ -5,7 +5,7 @@ $action = isset($_POST['action']) ? $_POST['action'] : "add";
 if($action == "update")
     return $c->updateCart();
 elseif($action == "detete"){
-    // return $c->deleteCart();
+    return $c->deleteCart();
 }
 //echo $action; die;
 else return $c->addToCart();
