@@ -22,7 +22,17 @@ class CheckOutModel extends DBConnect{
         }
         return false;
     }
-    
+
+    function insertBillDetail($id_bill,$id_food,$qty,$price){
+        $sql = "INSERT INTO bill_detail(id_bill,id_food,quatity,price)
+                VALUES($id_bill,$id_food,$qty,$price)";
+        $r = $this->executeQuery($sql);
+        if($r){
+            return $this->getLastId();
+        }
+        return false;
+    }
+
 }
 
 ?>
