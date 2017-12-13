@@ -37,7 +37,7 @@ td[class^="gia-"]{
                   </thead>
                   <tbody>
                   <?php foreach($data->items as $idSP => $sanpham):?>
-                    <tr>
+                    <tr class="sanpham-<?=$idSP?>">
                       <td>
                         <img src="public/source/assets/images/hinh_mon_an/<?=$sanpham['item']->image?>" width="150px">
                         <p><br><b><?=$sanpham['item']->name?></b></p>
@@ -203,7 +203,7 @@ $('.remove').click(function(){
 	$('.btnAccept').click(function(){
 		
 		if(id!=''){
-			console.log(id)
+			
 			$.ajax({
 			 	url:"cart.php",
 			 	data:{
@@ -212,15 +212,22 @@ $('.remove').click(function(){
 				},
 			 	type:"POST",
 				success:function(data){
-					console.log(data)
+					
+					//console.log(data)
+					$('#deleteCartModal').modal('hide')
+					console.log($('.sanpham-'+id))
+					$('.sanpham-'+id).hide(500);
+					$('.tongtien').html(data)
+					id = ''
 				},
 				error:function(){
 					console.log('err')
 				}
-			})
+			})		
+			
 		}
 		
-		id = ''
+
 	})
   	
 })
