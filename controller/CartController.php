@@ -52,6 +52,21 @@ class CartController{
         echo json_encode($arr);
  
     }
+
+    public function deleteCart(){
+        $id = $_POST['id'];
+        //them vao gio hang
+        //lay thong tin gio hang truoc do
+        $oldCart = isset($_SESSION['cart']) ? $_SESSION['cart'] : NULL;
+        $cart = new Cart($oldCart);
+        $cart->removeItem($id);
+
+        //luu gio hang vao session
+        $_SESSION['cart'] = $cart;
+
+       // print_r($_SESSION['cart']);
+        echo number_format($cart->totalPrice)." vnd";
+    }
 }
 
 ?>

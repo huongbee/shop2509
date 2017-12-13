@@ -211,14 +211,13 @@ $('.remove').click(function(){
 				 	action: "delete"
 				},
 			 	type:"POST",
-				success:function(){
-					console.log('success')
+				success:function(data){
+					console.log(data)
 				},
 				error:function(){
 					console.log('err')
 				}
 			})
-
 		}
 		
 		id = ''
