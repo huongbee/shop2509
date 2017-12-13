@@ -224,12 +224,14 @@ $('.remove').click(function(){
 					if(data==0){
 						$('.section-content').html('<div class="swin-sc swin-sc-title style-2"><h3 class="title"><span>Giỏ hàng rỗng</span></h3></div>')
 					}
-					//console.log(data)
-					$('#deleteCartModal').modal('hide')
-					console.log($('.sanpham-'+id))
-					$('.sanpham-'+id).hide(500);
-					$('.tongtien').html(data+" vnđ")
-					id = ''
+					else{
+						//console.log(data)
+						$('#deleteCartModal').modal('hide')
+						console.log($('.sanpham-'+id))
+						$('.sanpham-'+id).hide(500);
+						$('.tongtien').html(data+" vnđ")
+						id = ''
+					}
 				},
 				error:function(){
 					console.log('err')

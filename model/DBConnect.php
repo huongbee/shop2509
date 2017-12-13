@@ -33,7 +33,6 @@ class DBConnect{
 	public function executeQuery($query,$param=array()){
 		$this->setStatement($query,$param);
 		return $this->statement->execute();
-
 	}
 	//TH2: SELECT 1 dòng
 	public function loadOneRow($query,$param=array()){
@@ -57,6 +56,9 @@ class DBConnect{
 		}
 	}
 
+	function getLastId(){
+		return $this->connect->lastInsertId();
+	}
 }
 
 ?>
