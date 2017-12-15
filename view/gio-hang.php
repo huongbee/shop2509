@@ -103,7 +103,7 @@ td[class^="gia-"]{
 						<div class="input-group-addon">
 						<div class="fa fa-phone"></div>
 						</div>
-						<input type="text" placeholder="Phone" class="form-control" name="phone">
+						<input type="text" placeholder="Phone" class="form-control" name="phone" required>
 					</div>
 					</div>
 
@@ -112,7 +112,7 @@ td[class^="gia-"]{
 					</div>
 					<div class="form-group">
 					<div class="swin-btn-wrap center">
-						<button type="submit" class="swin-btn center form-submit">Gửi đơn hàng</button>			
+						<button type="submit" class="swin-btn center form-submit" name="btnCheckout">Gửi đơn hàng</button>			
 					</div>
 					</div>
 				</form>
