@@ -77,17 +77,17 @@ td[class^="gia-"]{
 				<div class="swin-sc swin-sc-title style-2">
 					<h3 class="title"><span>Đặt hàng</span></h3>
 				</div>
-				<form>
+				<form method="POST" action="checkout.php">
 					<div class="form-group">
 					<div class="input-group">
 						<div class="input-group-addon"><i class="fa fa-user"></i></div>
-						<input type="text" placeholder="Fullname" class="form-control">
+						<input type="text" placeholder="Fullname" class="form-control" name="fullname">
 					</div>
 					</div>
 					<div class="form-group">
 					<div class="input-group">
 						<div class="input-group-addon"><i class="fa fa-envelope"></i></div>
-						<input type="text" placeholder="Email" class="form-control">
+						<input type="text" placeholder="Email" class="form-control" name="email">
 					</div>
 					</div>
 					<div class="form-group">
@@ -95,7 +95,7 @@ td[class^="gia-"]{
 						<div class="input-group-addon">
 						<div class="fa fa-map-marker"></div>
 						</div>
-						<input type="text" placeholder="Address" class="form-control">
+						<input type="text" placeholder="Address" class="form-control" name="address">
 					</div>
 					</div>
 					<div class="form-group">
@@ -103,15 +103,17 @@ td[class^="gia-"]{
 						<div class="input-group-addon">
 						<div class="fa fa-phone"></div>
 						</div>
-						<input type="text" placeholder="Phone" class="form-control">
+						<input type="text" placeholder="Phone" class="form-control" name="phone">
 					</div>
 					</div>
 
 					<div class="form-group">
-					<textarea placeholder="Message" class="form-control"></textarea>
+					<textarea placeholder="Message" class="form-control" name="message"></textarea>
 					</div>
 					<div class="form-group">
-					<div class="swin-btn-wrap center"><a href="#" class="swin-btn center form-submit"> <span>Checkout</span></a></div>
+					<div class="swin-btn-wrap center">
+						<button type="submit" class="swin-btn center form-submit">Gửi đơn hàng</button>			
+					</div>
 					</div>
 				</form>
 				</div>
