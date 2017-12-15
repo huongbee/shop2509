@@ -43,8 +43,23 @@ class CheckoutController extends Controller{
             $token_date = date('Y-m-d H:i:s');
              
             $bill = $model->insertBill($customer,$date_order,$total,$message,$token,$token_date);
-            var_dump($bill);
+            
+            if($bill){
+                //insertBillDetail($id_bill,$id_food,$qty,$price)
+                foreach($cart->items as $id=>$food){
+                    $qty = $food['qty'];
+                    $price = $food['price'];
+                    $result = $model->insertBillDetail($bill,$id,$qty,$price);
+                    if(!$result){
+                       
+                    }
+                }
+                //xoa session
+                //gui mail xac nhan don hang
+                echo "thanh cong";
+            }
         }
+        
         
 
     }

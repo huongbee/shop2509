@@ -25,13 +25,28 @@ class CheckOutModel extends DBConnect{
     }
 
     function insertBillDetail($id_bill,$id_food,$qty,$price){
-        $sql = "INSERT INTO bill_detail(id_bill,id_food,quatity,price)
+        $sql = "INSERT INTO bill_detail(id_bill,id_food,quantity,price)
                 VALUES($id_bill,$id_food,$qty,$price)";
+        //echo $sql;die;
         $r = $this->executeQuery($sql);
         if($r){
             return $this->getLastId();
         }
         return false;
+    }
+
+    function deleteBillDetail($id_bill){
+        $sql = "DELETE FROM bill_detail WHERE id_bill=$id_bill";
+        return $this->executeQuery($sql);
+    }
+
+    function deleteBill($id_customer){
+        $sql = "DELETE FROM bills WHERE id_customer=$id_customer";
+        return $this->executeQuery($sql);
+    }
+    function deleteCustomer($id){
+        $sql = "DELETE FROM customers WHERE id=$id";
+        return $this->executeQuery($sql);
     }
 
 }
