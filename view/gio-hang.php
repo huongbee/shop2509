@@ -1,3 +1,9 @@
+<?php 
+//ob_clean();
+ob_start();
+session_start();
+
+?>
 <style>
 .tongtien{
   color:blue
@@ -29,6 +35,19 @@ td[class^="gia-"]{
 			else{
 
 				?>
+			<?php if(isset($_COOKIE['error'])):?>
+				<div class="swin-sc swin-sc-title style-2">
+					<div class="alert alert-danger"><?=$_COOKIE['error']?></div>
+			</div>
+				<?php endif?>
+			<?php if(isset($_SESSION['thanhcong'])):?>
+				<div class="swin-sc swin-sc-title style-2">
+					<div class="alert alert-success"><?=$_SESSION['thanhcong']?></div>
+			</div>
+				<?php 
+				unset($_SESSION['thanhcong']);
+				endif?>
+
 			<div class="swin-sc swin-sc-title style-2">
 				<h3 class="title"><span>Chi tiết giỏ hàng</span></h3>
 			</div>

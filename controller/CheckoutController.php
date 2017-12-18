@@ -51,15 +51,30 @@ class CheckoutController extends Controller{
                     $price = $food['price'];
                     $result = $model->insertBillDetail($bill,$id,$qty,$price);
                     if(!$result){
-                       
+                        $model->deleteBillDetail($bill);
+                        $model->deleteBill($customer);
+                        $model->deleteCustomer($customer);
+                        setcookie('error',"Có lỗi xảy ra, vui lòng thử lại",time()+1);
+                        header('Location:checkout.php');
                     }
                 }
-                //xoa session
-                //gui mail xac nhan don hang
-                echo "thanh cong";
+                
+                unset($cart);
+                unset($_SESSION['cart']);
+                $_SESSION['thanhcong'] = "Dat hang thanh cong";
+                header('Location:checkout.php');
+            }
+            else{
+                $model->deleteCustomer($customer);
+                setcookie('error',"Có lỗi xảy ra, vui lòng thử lại",time()+1);
+                header('Location:checkout.php');
             }
         }
-        
+        else{
+            setcookie('error',"Có lỗi xảy ra, vui lòng thử lại",time()+1);
+            header('Location:checkout.php');
+        }
+
         
 
     }
