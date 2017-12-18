@@ -58,7 +58,7 @@ class CheckoutController extends Controller{
                         header('Location:checkout.php');
                     }
                 }
-                
+                //
                 unset($cart);
                 unset($_SESSION['cart']);
                 $_SESSION['thanhcong'] = "Dat hang thanh cong";

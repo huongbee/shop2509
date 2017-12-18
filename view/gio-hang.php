@@ -1,7 +1,7 @@
 <?php 
 //ob_clean();
 ob_start();
-session_start();
+if(!isset($_SESSION))session_start();
 
 ?>
 <style>
