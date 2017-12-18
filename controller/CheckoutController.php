@@ -3,6 +3,7 @@ include_once('Controller.php');
 include_once('controller/Cart.php');
 include_once('model/CheckOutModel.php');
 include_once('include/function.php');
+include_once('include/Mailer.php');
 session_start();
 
 class CheckoutController extends Controller{
@@ -59,10 +60,26 @@ class CheckoutController extends Controller{
                     }
                 }
                 //
-                unset($cart);
-                unset($_SESSION['cart']);
-                $_SESSION['thanhcong'] = "Dat hang thanh cong";
-                header('Location:checkout.php');
+                $subject = "Xác nhận đơn hàng DH-000".$bill;
+
+                $token_date = strtotime($token_date);
+                $link = "http://localhost/shop2509/order-confirm.php?token=$token&t=$token_date";
+
+                $content = "Chào bạn $fullname,
+                <br/>Cám ơn bạn đã mua hàng......
+                <br/>Bạn vui lòng chọn vào link sau để xác nhận đơn hàng: $link
+                <br/>Nếu bạn không đặt hàng, vui lòng bỏ qua email này....";
+                $check = Mailer($fullname,$email,$subject,$content);
+                if($check){
+                    unset($cart);
+                    unset($_SESSION['cart']);
+                    $_SESSION['thanhcong'] = "Dat hang thanh cong. Vui lòng kiểm tra email để xác nhận đơn hàng.";
+                    header('Location:checkout.php');
+                }
+                else{
+                    setcookie('error',"Có lỗi xảy ra, vui lòng thử lại",time()+1);
+                    header('Location:checkout.php');
+                }
             }
             else{
                 $model->deleteCustomer($customer);

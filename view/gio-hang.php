@@ -26,16 +26,7 @@ td[class^="gia-"]{
     <section class="section-reservation-form padding-top-100 padding-bottom-100">
       <div class="container">
         <div class="section-content">
-			<?php
-			if($data->totalPrice==0){
-				echo '<div class="swin-sc swin-sc-title style-2">
-				<h3 class="title"><span>Giỏ hàng rỗng</span></h3>
-			  </div>';
-			}
-			else{
-
-				?>
-			<?php if(isset($_COOKIE['error'])):?>
+				<?php if(isset($_COOKIE['error'])):?>
 				<div class="swin-sc swin-sc-title style-2">
 					<div class="alert alert-danger"><?=$_COOKIE['error']?></div>
 			</div>
@@ -48,6 +39,16 @@ td[class^="gia-"]{
 				unset($_SESSION['thanhcong']);
 				endif?>
 
+			<?php
+			if($data->totalPrice==0){
+				echo '<div class="swin-sc swin-sc-title style-2">
+				<h3 class="title"><span>Giỏ hàng rỗng</span></h3>
+			  </div>';
+			}
+			else{
+
+				?>
+			
 			<div class="swin-sc swin-sc-title style-2">
 				<h3 class="title"><span>Chi tiết giỏ hàng</span></h3>
 			</div>
