@@ -96,7 +96,32 @@ class CheckoutController extends Controller{
 
     }
 
+    public function getOrderConfirm(){
+        $token = isset($_GET['token']) ? $_GET['token'] : '';//KBImYM9isFuiAwhlcUqzmpCrAR7KXf
+        $time = isset($_GET['t']) ? $_GET['t'] : 0;
+        $now = strtotime(date('Y/m/d H:i:s'));
+        if($now - $time <= 86400){
+            //
+            if(strlen($token)==30){
+                $model = new  CheckOutModel;
+                $bill = $model->checkBill($token);
+                if($bill){
+                    $model->acceptBill($bill->id);
+                    echo "Xác nhận đon hàng thành công";
+                    echo "<script>alert('Xác nhận đơn hàng thành công.')</script>";
+                }
+                else{
+                    echo "Không tin thấy đơn hàng, Vui lòng kiểm tra lại.";
+                }
+            }
+            else{
+                echo "Token không đúng, VUi lòng kiểm tra lại.";
+            }
+        }
+        else
+            echo "Hết hạn";
+            header("location:index.php");
+    }
     
 }
 
-?>
