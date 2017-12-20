@@ -47,6 +47,7 @@ class HomeController extends Controller{
 	
 
 	public function getViewSearch(){
+		
 		return $this->loadView('tim-kiem');
 	}
 

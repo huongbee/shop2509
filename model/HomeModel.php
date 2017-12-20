@@ -36,7 +36,10 @@ class HomeModel extends DBConnect{
 		return $this->loadMoreRows($sql);
 	}
 
-	
+	public function getNewFoods(){
+		$sql = "SELECT * FROM foods ORDER BY id DESC LIMIT 0,12";
+		return $this->loadMoreRows($sql);
+	}
 
 }
 
