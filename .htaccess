@@ -1,0 +1,23 @@
+RewriteEngine On
+
+#Deny from all
+
+#C1
+#<Files "test.txt">
+#deny from all
+#</Files>
+
+#c2
+RewriteRule ^/?public\/test.txt$ - [F,L]
+
+RewriteRule ^index.html$ index.php
+RewriteRule ^gio-hang.html$ checkout.php 
+RewriteRule ^tim-kiem.html$ search.php
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ detail-food.php?url=$1
+#RewriteRule ^([a-zA-Z0-9_-]+)-([0-9])+$ detail-food.php?url=$1&id=$2
+
+RewriteRule ^tim-kiem/(.*)$ search.php?txtKeyword=$1
+
+ErrorDocument 404 /shop2509/404.php
+ErrorDocument 403 /shop2509/404.php
