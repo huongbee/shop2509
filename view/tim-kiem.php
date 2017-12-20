@@ -29,7 +29,7 @@
                             <div class="form-group">
                                 <label class="col-md-6 col-md-offset-3">
                                 Nhập tên món/mô tả/đơn giá:
-                                    <input type="text" placeholder="Enter keyword" class="form-control" name="txtKeyword">
+                                    <input type="text" placeholder="Enter keyword" class="form-control" name="txtKeyword" value="<?=@$_GET['txtKeyword']?>">
                                 </label>
                             </div>
                             <div class="form-group">
@@ -37,6 +37,13 @@
                             </div>
                         </form>
                     </div>
+                    <?php
+                    if(isset($_GET['txtKeyword'])):
+                    ?>
+                    <div class="row">
+                        <h3>Tìm thấy <b><?=count($data)?></b> sản phẩm cho <b><?=$_GET['txtKeyword']?></b></h3>
+                    </div>
+                    <?php endif?>
                     <div class="products nav-slider margin-top-50">
                         <div class="row slick-padding">
                             <?php foreach($data as $food):?>

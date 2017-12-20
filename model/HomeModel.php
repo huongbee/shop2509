@@ -41,6 +41,14 @@ class HomeModel extends DBConnect{
 		return $this->loadMoreRows($sql);
 	}
 
+	public function findFoods($keyword){
+		$sql = "SELECT * FROM foods 
+				WHERE `name` LIKE '%$keyword%' 
+				OR `price` = '$keyword'
+				OR `summary` LIKE '%$keyword%'";
+		return $this->loadMoreRows($sql);
+	}
+
 }
 
 

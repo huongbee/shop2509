@@ -48,7 +48,14 @@ class HomeController extends Controller{
 
 	public function getViewSearch(){
 		$model = new HomeModel;
-		$foods = $model->getNewFoods();
+		if(!isset($_GET['txtKeyword']) || $_GET['txtKeyword']==''){
+			$foods = $model->getNewFoods();
+		}
+		else{
+			$keyword = trim($_GET['txtKeyword']);
+			$foods = $model->findFoods($keyword);
+		}
+		//print_r($foods);die;
 		return $this->loadView('tim-kiem',$foods);
 	}
 
