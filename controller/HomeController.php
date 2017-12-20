@@ -47,8 +47,9 @@ class HomeController extends Controller{
 	
 
 	public function getViewSearch(){
-		
-		return $this->loadView('tim-kiem');
+		$model = new HomeModel;
+		$foods = $model->getNewFoods();
+		return $this->loadView('tim-kiem',$foods);
 	}
 
 
