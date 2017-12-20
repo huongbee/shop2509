@@ -43,7 +43,12 @@ class HomeController extends Controller{
     	];
 
         return $this->loadView("trangchu",$data);
-    }
+	}
+	
+
+	public function getViewSearch(){
+		return $this->loadView('tim-kiem');
+	}
 
 
 }

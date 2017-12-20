@@ -38,7 +38,13 @@ td[class^="gia-"]{
 				<?php 
 				unset($_SESSION['thanhcong']);
 				endif?>
-
+			<?php if(isset($_SESSION['error'])):?>
+				<div class="swin-sc swin-sc-title style-2">
+					<div class="alert alert-danger"><?=$_SESSION['error']?></div>
+			</div>
+				<?php 
+				unset($_SESSION['error']);
+				endif?>
 			<?php
 			if($data->totalPrice==0){
 				echo '<div class="swin-sc swin-sc-title style-2">

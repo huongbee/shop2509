@@ -107,20 +107,21 @@ class CheckoutController extends Controller{
                 $bill = $model->checkBill($token);
                 if($bill){
                     $model->acceptBill($bill->id);
-                    echo "Xác nhận đon hàng thành công";
-                    echo "<script>alert('Xác nhận đơn hàng thành công.')</script>";
+                    $_SESSION['thanhcong'] =  "Xác nhận đon hàng thành công";
                 }
                 else{
-                    echo "Không tin thấy đơn hàng, Vui lòng kiểm tra lại.";
+                    $_SESSION['error'] =  "Không tin thấy đơn hàng, Vui lòng kiểm tra lại.";
                 }
             }
             else{
-                echo "Token không đúng, VUi lòng kiểm tra lại.";
+                $_SESSION['error'] =  "Token không đúng, Vui lòng kiểm tra lại.";
             }
         }
         else
-            echo "Hết hạn";
-            header("location:index.php");
+            $_SESSION['error'] = "Token Hết hạn";
+            header("Location:checkout.php");
+
+           // header("location:index.php");
     }
     
 }
